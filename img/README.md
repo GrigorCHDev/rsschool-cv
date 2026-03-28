@@ -1,1 +1,0 @@
-https://GrigorCHDev.github.io/rsschool-cv/
