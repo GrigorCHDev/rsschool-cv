@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     background: linear-gradient(135deg, #1f2937, #111827);
@@ -31,6 +34,34 @@ header {
     border: 4px solid white;
     object-fit: cover;
 }
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.nav a {
+    text-decoration: none;
+    color: #1e40af;
+    background: #f1f5f9;
+    padding: 8px 16px;
+    border-radius: 999px; /* pill shape */
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.nav a:hover {
+    background: #2563eb;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.nav a:active {
+    transform: scale(0.95);
+}
 .header-text {
     margin-left: 20px;
 }
@@ -55,8 +86,9 @@ section h2 {
 ul {
     list-style: none;
     margin-top: 10px;
+    list-style-type: circle;
+    margin-left: 40px;
 }
-
 ul li {
     margin-bottom: 8px;
 }
@@ -64,7 +96,6 @@ a {
     color: #2563eb;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
