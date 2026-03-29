@@ -1,1 +1,1 @@
-https://GrigorCHDev.github.io/rsschool-cv-html
+https://GrigorCHDev.github.io/rsschool-cv/
